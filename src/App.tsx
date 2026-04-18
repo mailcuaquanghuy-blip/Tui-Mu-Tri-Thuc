@@ -118,7 +118,7 @@ export default function App() {
             <div className="uppercase text-[#FF6B6B] font-black text-xs mb-1">🎮 Trò chơi được phát triển bởi 🎮</div>
             Vũ Trần Minh Hiếu (29/08/2016) <br/>
             Học sinh lớp 4B <br/> 
-            Trường Tiểu học Nguyễn Trãi, Nam Định
+            Tiểu học Nguyễn Trãi, Phường Trường Thi, Tỉnh Ninh Bình
           </div>
         </motion.div>
       </div>
