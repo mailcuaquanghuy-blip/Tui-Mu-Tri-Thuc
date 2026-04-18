@@ -109,10 +109,17 @@ export default function App() {
           <button 
             onClick={batDauChoi}
             disabled={!playerName.trim()}
-            className="w-full bg-[#6BCB77] text-white border-[4px] border-[#333] py-3 rounded-[15px] font-black uppercase text-xl shadow-[4px_4px_0px_#333] hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[8px_8px_0px_#333] active:translate-y-1 active:translate-x-1 active:shadow-[0px_0px_0px_#333] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-[#6BCB77] text-white border-[4px] border-[#333] py-3 rounded-[15px] font-black uppercase text-xl shadow-[4px_4px_0px_#333] hover:-translate-y-1 hover:-translate-x-1 hover:shadow-[8px_8px_0px_#333] active:translate-y-1 active:translate-x-1 active:shadow-[0px_0px_0px_#333] transition-all disabled:opacity-50 disabled:cursor-not-allowed mb-6"
           >
             Bắt Đầu Chơi!
           </button>
+          
+          <div className="w-full bg-[#f9f9f9] border-[3px] border-[#333] rounded-[15px] p-3 text-sm font-bold text-[#333] text-center shadow-inner">
+            <div className="uppercase text-[#FF6B6B] font-black text-xs mb-1">🎮 Trò chơi được phát triển bởi 🎮</div>
+            Vũ Trần Minh Hiếu (29/08/2016) <br/>
+            Học sinh lớp 4B <br/> 
+            Trường Tiểu học Nguyễn Trãi, Nam Định
+          </div>
         </motion.div>
       </div>
     );
